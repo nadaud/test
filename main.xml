@@ -1,6 +1,0 @@
-<xsl:stylesheet version=”1.0″ xmlns:xsl="http://www.w3.org/2001/XMLSchema-instance" xmlns:php=”http://php.net/xsl”>
-<xsl:template match=”stylesheet”>
-<script>alert(document.cookie)</script>
-</xsl:template>
-</xsl:stylesheet>
-
