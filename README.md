@@ -1,4 +1,4 @@
 # test 
 ---
 
-Just a test for [https://root-me.org](roo me)
+Just a test for [root me](https://root-me.org)
