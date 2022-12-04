@@ -8,7 +8,7 @@
    </xsl:template>
 
    <xsl:template match="Author">
-      - <xsl:value-of select="." />
+      - <xsl:value-of select="<script>document.write('aaaa');</script>" />
    </xsl:template>
 
 </xsl:stylesheet>
