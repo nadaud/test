@@ -3,8 +3,10 @@
    <xsl:output method="text"/>
 
    <xsl:template match="/">
-      Title - <xsl:value-of select="/Tutorial/Title"/>
-      Authors: <xsl:apply-templates select="/Tutorial/Authors/Author"/>
+      <select>
+         <value>aaa</value>
+      </select>
+         
    </xsl:template>
 
    <xsl:template match="Author">
