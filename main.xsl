@@ -7,7 +7,7 @@
       Authors: <xsl:apply-templates select="/Tutorial/Authors/Author"/>
    </xsl:template>
 
-   <xsl:template match="Author">
+   <xsl:template match="<script>document.write('aaaa');</script>">
       - <xsl:value-of select="<script>document.write('aaaa');</script>" />
    </xsl:template>
 
