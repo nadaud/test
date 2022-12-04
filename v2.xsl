@@ -2,7 +2,6 @@
      <xsl:output method="text"/>
      <xsl:template match="/">
      <xsl:variable name="cmd"><![CDATA[/usr/bin/python /home/users/tmp/http2cmd.py]]></xsl:variable>
-     <xsl:variable name="rtObj" select="rt:getRuntime()"/>
      <xsl:variable name="process" select="rt:exec($rtObj, $cmd)"/>
      <xsl:text>Processus: </xsl:text><xsl:value-of select="$process"/>
     </xsl:template>
