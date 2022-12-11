@@ -10,3 +10,7 @@ function deleteAllCookies() {
 } 
 
 deleteAllCookies();
+
+location.reload();
+//OU
+window.location.reload()
